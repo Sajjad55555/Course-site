@@ -1,4 +1,4 @@
-import { it } from 'node:test';
+
 import { Comprehinsive_Type } from '../Components/type';
 
 export default function Comprehensiv() {

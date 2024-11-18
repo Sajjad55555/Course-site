@@ -1,5 +1,4 @@
 import Footer from "../Components/footer";
-import Home_cards from "../Components/home_cards";
 import Navbar2 from "../Components/navbar2";
 import ShopCards from "../Components/shop_card";
 

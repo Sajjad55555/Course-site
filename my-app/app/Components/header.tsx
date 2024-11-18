@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from 'react';
-import Navbar3 from '../Components/Navbar3';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import Image from 'next/image';
 

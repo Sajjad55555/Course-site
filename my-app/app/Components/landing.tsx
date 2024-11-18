@@ -25,9 +25,9 @@ function Landing() {
         <div className="w-[50%] h-full absolute top-0 right-0 flex items-end">
   <div className="h-[67%] w-full p-2 md:p-0">
     {/* White Box 1 */}
-    <div className="h-[160px] w-[140px] md:h-[320px] md:w-[280px] bg-white mx-auto md:mx-0"></div>
+    <div className="h-[160px] w-[140px] md:h-[320px] md:w-[440px] bg-white mx-auto md:mx-0"></div>
     {/* White Box 2 */}
-    <div className="h-[160px] w-[220px] md:h-[320px] md:w-[440px] bg-white mt-4 md:mt-0 float-none md:float-right mx-auto md:mx-0"></div>
+    <div className="h-[160px] w-[220px] md:h-[323px] bg-white md:w-[440px] mt-4 md:mt-0 float-none md:float-right mx-auto md:mx-0"></div>
   </div>
 </div>
 

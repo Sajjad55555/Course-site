@@ -11,7 +11,7 @@ function Navbar3() {
         <div className="flex flex-col md:flex-row items-center gap-4">
         <Image src={"/nabar3/logo.png"} height={66} width={65} alt="logo" />
         <div className=" ">
-        <div><Image className="w-[120px]" src={"/nabar3/logo.png"} height={50} width={120} alt="" /></div>
+        <div><Image className="w-[120px]" src={"/nabar3/vector.png"} height={50} width={120} alt="" /></div>
         <div className="text-[10px] text-[#066AFF]">The Ten_Million Sales Club</div>
       </div >
       </div>

@@ -6,6 +6,7 @@ import { MdOutlineHeadsetMic, MdOutlineUpload } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 import Comprehensiv from '../Components/comprehensiv';
 import AboutCards from '../Components/aboutCard';
+import Footer2 from '../Components/footer2';
 
 
 export default function AboutUs() {
@@ -45,10 +46,12 @@ export default function AboutUs() {
       </div>
       {/* Body Section end */}
       {/* footer Section start */}
-
+      <div>
+        <Footer2/>
+      </div>
 
       
-      {/* Body Section end */}
+      {/*footerSection end */}
     </div>
   );
 }

@@ -15,7 +15,8 @@ export type cardData = {
   title:string,
   dic:string,
   name:string,
-  date:string
+  date:string,
+  button?:boolean
 }
 export type Footer_Text_Type={
   line?:boolean,

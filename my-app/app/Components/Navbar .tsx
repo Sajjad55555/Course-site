@@ -1,6 +1,6 @@
 import { APP_LINKS } from "../utils/constant";
 import Link from "next/link";
-import { CiSearch } from "react-icons/ci";
+
 
 export default function Navbar() {
   return (

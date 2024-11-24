@@ -26,14 +26,14 @@ export default function Header() {
     <>
 
       {/* Header div start */}
-      <div className='w-full h-auto flex justify-center mt-10 items-center'>
+      <div className='w-full h-auto flex justify-center mt-10 items-center gap-6'>
         {/* Left icon */}
         <div onClick={handlePrevious} className='cursor-pointer'>
           <FaChevronLeft className="text-xl text-[#2A2F5E]" />
         </div>
 
         {/* Header div with image */}
-        <div className='w-full max-w-[1000px] h-[560px] bg-[#C4C4C4] rounded-lg flex justify-center items-center'>
+        <div className='w-full max-w-[66.7%] h-[560px] bg-[#C4C4C4] rounded-lg flex justify-center items-center'>
           <div className='w-full max-w-[700px] h-full'>
             <Image
               className='h-full w-full'

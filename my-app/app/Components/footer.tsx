@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <div className="w-full h-auto bg-black flex justify-center items-center">
-        <div className="h-auto w-full max-w-[1340px] py-16 flex flex-col px-4 text-white">
+        <div className="h-auto w-full max-w-[66.7%] py-16 flex flex-col text-white">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between">
             {/* div 1 start */}
             <div className="flex flex-col gap-4 w-full md:w-1/2">
@@ -36,29 +36,25 @@ export default function Footer() {
               </div>
               {/* logos */}
               <div className="flex justify-center md:justify-start gap-6 mt-4">
-                <div className="h-11 w-11 bg-white rounded-full"></div>
-                <div className="h-11 w-11 bg-white rounded-full"></div>
-                <div className="h-11 w-11 bg-white rounded-full"></div>
-                <div className="h-11 w-11 bg-white rounded-full"></div>
-                <div className="h-11 w-11 bg-white rounded-full"></div>
+                <FooterList/>
               </div>
             </div>
             {/* div 2 start */}
-            <div className="w-full md:w-auto mt-4 md:mt-0">
+            {/* <div className="w-full md:w-auto mt-4 md:mt-0">
               <div className="text-center md:text-end">언어를 선택하세요</div>
               <div className="flex justify-center md:justify-end mt-2">
                 <FooterList />
               </div>
-            </div>
+            </div> */}
           </div>
           {/* line */}
           <div className="h-1 w-full bg-white mt-4"></div>
           {/* end content */}
           <div className="flex flex-wrap justify-center md:justify-start gap-6 mt-6 text-center">
-                <Footer_text line={true} text="Home" />
-                <Footer_text line={true} text="About" />
-                <Footer_text line={true} text="Contact" />
-                <Footer_text line={true} text="Blog" />
+                <Footer_text line={true} text="개인정보처리방침" />
+                <Footer_text line={true} text="이용약관" />
+                <Footer_text line={true} text="품질오류신고" />
+                <Footer_text line={true} text="품질오류신고확인" />
           </div>
         </div>
       </div>

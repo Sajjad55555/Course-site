@@ -1,11 +1,10 @@
-import Navebar from "./Components/Navbar ";
-import Footer from "./Components/footer";
+
 import Landing from "./Components/landing";
 import Landing_class_card from "./Components/landing_class_card";
 export default function Home() {
   return (
     <div >
-<Navebar/>
+
 <Landing/>
 {/* event banner div start*/}
 <div className="w-full flex justify-center mt-10">
@@ -23,7 +22,7 @@ export default function Home() {
 {/* card div end*/}
 {/* footer section */}
 <div className="mt-16">
-  <Footer/>
+  
 </div>
 
     </div>

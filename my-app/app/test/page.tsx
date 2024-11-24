@@ -24,7 +24,7 @@ export default function Test() {
               {/* Title */}
               <div className="text-lg font-bold flex w-[150px] bg-red-500">제공 내역</div>
               {/* Description */}
-              <div className="text-base w-[590px] font-pretendard px-[200px] md:px-[8px]">
+              <div className="text-base bg-slate-100 font-pretendard md:px-[8px]">
                 <p className="text-lg font-bold">명륜진사갈비 40,000원 이용권</p>
                 <p className="mt-6">[참고사항]</p>
                 <p>※ 전국 명륜진사갈비에서 사용 가능한 이용권입니다.</p>
@@ -51,9 +51,9 @@ export default function Test() {
             {/* Section 2 */}
             <div className="flex gap-6 md:gap-0 flex-col md:flex-row items-center md:items-start text-center md:text-start mt-8">
               {/* Title */}
-              <div className="font-extrabold flex w-[150px] bg-red-500">방문 및 예약안내</div>
+              <div className="font-extrabold flex w-[200px] bg-red-500">방문 및 예약안내</div>
               {/* Description */}
-              <div className="text-base w-[590px] font-pretendard px-[150px] md:px-[8px]">
+              <div className="text-base bg-slate-100 font-pretendard  md:px-[8px]">
                 <p className="text-red-500 font-extrabold text-sm">
                   ※쿠폰 미수령 시 매장 방문 불가 (반드시 쿠폰 수령하신다음 매장 방문하셔야 합니다!)
                 </p>
@@ -89,11 +89,11 @@ export default function Test() {
             </div>
 
             {/* Section 3 */}
-            <div className="flex gap-20 flex-col md:flex-row items-center md:items-start text-center md:text-start mt-8">
+            <div className="flex  flex-col md:flex-row items-center md:items-start text-center md:text-start mt-8">
               {/* Title */}
-              <div className="font-extrabold flex">강의 안내</div>
+              <div className="font-extrabold w-[200px] bg-red-500 flex">강의 안내</div>
               {/* Description */}
-              <div className="text-base w-[590px] font-pretendard px-[150px] md:px-[8px]">
+              <div className="text-base  font-pretendard  md:px-[8px]">
                 <p className="flex items-center">
                   <IoStarSharp />
                   신메뉴 소개
@@ -118,11 +118,11 @@ export default function Test() {
             </div>
 
             {/* Section 4 */}
-            <div className="flex gap-12 flex-col md:flex-row items-center md:items-start text-center md:text-start mt-8">
+            <div className="flex  flex-col md:flex-row items-center md:items-start text-center md:text-start mt-8">
               {/* Title */}
-              <div className="font-extrabold flex text-base">추가 안내사항</div>
+              <div className="font-extrabold flex w-[200px] bg-red-500 text-base">추가 안내사항</div>
               {/* Description */}
-              <div className="w-[590px] font-pretendard text-base px-[150px] md:px-[8px]">
+              <div className=" font-pretendard  text-base  md:px-[8px]">
                 <p>- 초과비용 본인 부담 / 타쿠폰 중복적용 불가 / 테이크 아웃 불가</p>
                 <p>- 업체 측 요청에 따라 선정 인플루언서 수가 변경될 수 있습니다.</p>
                 <p>

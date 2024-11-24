@@ -1,7 +1,7 @@
 export default function ContactUs() {
     return (
       <>
-        <div className="px-4 md:px-[200px] py-[200px]">
+        <div className="px-4 md:px-[250px] py-[200px]">
           {/* Title div */}
           <div className="text-[24px] md:text-[44px] font-bold text-center md:text-left">찾아오는 길</div>
           {/* Google Map div */}

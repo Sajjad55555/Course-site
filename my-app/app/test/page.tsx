@@ -18,7 +18,7 @@ export default function Test() {
         {/* Main Content Container */}
         <div className="h-auto w-full max-w-[1050px] flex flex-wrap justify-between flex-col md:flex-row items-center md:items-start gap-4 md:gap-0">
           {/* Text Content */}
-          <div className="w-[71%] h-auto">
+          <div className="w-[750px] h-auto bg-red-500">
             {/* Section 1 */}
             <div className="flex flex-col gap-6 md:gap-0 md:flex-row items-center md:items-start text-center md:text-start">
               {/* Title */}

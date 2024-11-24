@@ -33,7 +33,7 @@ export default function Header() {
         </div>
 
         {/* Header div with image */}
-        <div className='w-full max-w-[66.7%] h-[560px] bg-[#C4C4C4] rounded-lg flex justify-center items-center'>
+        <div className='w-full max-w-[1050px] h-[560px] bg-[#C4C4C4] rounded-lg flex justify-center items-center'>
           <div className='w-full max-w-[700px] h-full'>
             <Image
               className='h-full w-full'

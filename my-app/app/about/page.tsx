@@ -14,7 +14,7 @@ export default function AboutUs() {
       {/* Body Section */}
       <div className="w-full h-auto flex justify-center mt-24 mb-48">
         {/* Main Content Container */}
-        <div className="h-auto w-full max-w-[66.7%] flex flex-wrap justify-between flex-col md:flex-row items-center md:items-start gap-2">
+        <div className="h-auto w-full max-w-[66.7%] flex flex-wrap items-center md:items-start  ">
           {/* Text Content */}
           <div className="w-[70.3%] h-auto">
             {/* Section 1 */}

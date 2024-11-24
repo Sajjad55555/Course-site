@@ -14,7 +14,7 @@ export default function AboutUs() {
       {/* Body Section */}
       <div className="w-full h-auto flex justify-center mt-24 mb-48">
         {/* Main Content Container */}
-        <div className="h-auto w-full max-w-[66.7%] flex flex-wrap justify-between flex-col md:flex-row items-center md:items-start gap-6 py-4 mx-2">
+        <div className="h-auto w-full max-w-[66.7%] flex flex-wrap justify-between flex-col md:flex-row items-center md:items-start gap-4 py-4 mx-2">
           {/* Text Content */}
           <div className="w-[70.3%] h-auto">
             {/* Section 1 */}
@@ -136,7 +136,7 @@ export default function AboutUs() {
           </div>
 
           {/* Sidebar Section */}
-          <div className="w-[288px] h-[686px] border-[3px] rounded-xl border-black">
+          <div className="w-[287px] h-[686px] border-[3px] rounded-xl border-black">
             <About_farm />
           </div>
         </div>

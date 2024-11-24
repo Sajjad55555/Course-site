@@ -16,9 +16,9 @@ export default function AboutUs() {
       {/* Body Section */}
       <div className="w-full h-auto flex justify-center mt-24 mb-48">
         {/* Main Content Container */}
-        <div className="h-auto w-full max-w-[66.7%] flex flex-wrap justify-between flex-col md:flex-row items-center md:items-start gap-4">
+        <div className="h-auto w-full max-w-[66.7%] flex flex-wrap justify-between flex-col md:flex-row items-center md:items-start gap-4 md:gap-0">
           {/* Text Content */}
-          <div className="w-[71.3%] h-auto">
+          <div className="w-[71%] h-auto">
             {/* Section 1 */}
             <div className="flex gap-16 flex-col md:flex-row items-center md:items-start text-center md:text-start">
               {/* Title */}

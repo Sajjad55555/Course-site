@@ -4,7 +4,7 @@ export default function About_farm() {
   return (
     <>
     <div className=' flex justify-center items-center w-full rounded-xl h-full'>
-        <div className=' w-full max-w-[250px] h-[569px]'>
+        <div className=' w-full max-w-[240px] h-[569px]'>
                  <div className='text-[20px] font-extrabold text-black'>
                  브랜드 마케팅 무기학 개론 누구나 쉽게 배우기
                  </div>

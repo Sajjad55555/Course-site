@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <div className="w-full h-auto bg-black flex justify-center items-center">
-        <div className="h-auto w-full max-w-[66.7%] py-16 flex flex-col text-white">
+        <div className="h-auto w-full max-w-[1050px] py-16 flex flex-col text-white">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between">
             {/* div 1 start */}
             <div className="flex flex-col gap-4 w-full md:w-1/2">

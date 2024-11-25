@@ -5,7 +5,7 @@ export default function Landing_class_card() {
   return (
     <>
     <div className='w-full flex flex-wrap justify-center mt-8'>
-        <div className='w-[950px]'>
+        <div className='w-[1050px]'>
             {/* title div start */}
             <div className="flex justify-between flex-wrap">
                 <div className="text-2xl font-semibold ">High-Density Class.</div>

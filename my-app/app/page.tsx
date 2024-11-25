@@ -8,7 +8,7 @@ export default function Home() {
 <Landing/>
 {/* event banner div start*/}
 <div className="w-full flex justify-center mt-10">
-  <div className="w-[950px] h-[100px] bg-[#FF6016] items-center flex justify-center">
+  <div className="w-[1050px] h-[100px] bg-[#FF6016] items-center flex justify-center">
     <div className=" uppercase text-white text-[30px]">event banner</div>
   </div>
 </div>

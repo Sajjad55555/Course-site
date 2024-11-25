@@ -1,30 +1,29 @@
-
 import { IoStarSharp } from "react-icons/io5";
-
-
-import Header from '../Components/header';
-import About_farm from '../Components/about_farm';
+import Header from "../Components/header";
+import About_farm from "../Components/about_farm";
 import { FaPlay } from "react-icons/fa6";
 import Link from "next/link";
 
-export default function AboutUs() {
+export default function About_Us() {
   return (
     <div className="w-full h-auto">
       {/* Header Section */}
       <Header />
 
       {/* Body Section */}
-      <div className="w-full h-auto flex justify-center mt-24 mb-48">
+      <div className="w-full h-auto flex justify-center mt-16 mb-24 ">
         {/* Main Content Container */}
-        <div className="h-auto w-full max-w-[66.7%] flex flex-wrap justify-between flex-col md:flex-row items-center md:items-start gap-4 md:gap-0">
+        <div className="flex flex-col lg:flex-row items-center md:items-start w-full max-w-[1050px] gap-8">
           {/* Text Content */}
-          <div className="w-[71%] h-auto">
+          <div className="w-full lg:w-[750px] flex flex-col gap-8">
             {/* Section 1 */}
-            <div className="flex gap-16 flex-col md:flex-row items-center md:items-start text-center md:text-start">
+            <div className="flex flex-col lg:flex-row gap-4 items-center lg:items-start text-center lg:text-start">
               {/* Title */}
-              <div className="text-lg font-bold flex">제공 내역</div>
+              <div className="text-lg font-bold w-full lg:w-[150px] flex-shrink-0">
+                제공 내역
+              </div>
               {/* Description */}
-              <div className="text-base w-[590px] font-pretendard px-[150px] md:px-[8px]">
+              <div className="text-base font-pretendard lg:px-4">
                 <p className="text-lg font-bold">명륜진사갈비 40,000원 이용권</p>
                 <p className="mt-6">[참고사항]</p>
                 <p>※ 전국 명륜진사갈비에서 사용 가능한 이용권입니다.</p>
@@ -49,28 +48,30 @@ export default function AboutUs() {
             </div>
 
             {/* Section 2 */}
-            <div className="flex gap-6 flex-col md:flex-row items-center md:items-start text-center md:text-start mt-8">
+            <div className="flex flex-col lg:flex-row gap-4 items-center lg:items-start text-center lg:text-start mt-8">
               {/* Title */}
-              <div className="font-extrabold flex text-base">방문 및 예약안내</div>
+              <div className="font-extrabold text-base w-full lg:w-[150px] flex-shrink-0">
+                방문 및 예약안내
+              </div>
               {/* Description */}
-              <div className="text-base w-[590px] font-pretendard px-[150px] md:px-[8px]">
+              <div className="text-base font-pretendard lg:px-4">
                 <p className="text-red-500 font-extrabold text-sm">
                   ※쿠폰 미수령 시 매장 방문 불가 (반드시 쿠폰 수령하신다음 매장 방문하셔야 합니다!)
                 </p>
                 <p className="mt-6">[영업시간 및 방문 안내]</p>
                 <Link href={"/"}>
-                  <p className="flex items-center">
+                  <p className="flex items-center justify-center lg:justify-start">
                     <FaPlay />
-                    <span className="cursor-pointer inline border-b border-black">
+                    <span className="ml-2 cursor-pointer inline border-b border-black">
                       매장찾기(클릭)
                     </span>
                   </p>
                 </Link>
-                <p className="flex items-center">
+                <p className="flex items-center justify-center lg:justify-start mt-2">
                   <IoStarSharp />
                   체험불가매장: &apos;잠실아시아선수촌점&apos;, &apos;서충주기업도시점&apos;
                 </p>
-                <p>※ 영업시간 및 예약, 주차 등 문의는 방문하실 매장으로 문의하시기 바랍니다.</p>
+                <p className="mt-2">※ 영업시간 및 예약, 주차 등 문의는 방문하실 매장으로 문의하시기 바랍니다.</p>
                 <p>※ 예약 없이 지점 영업시간 내 방문 가능합니다.</p>
                 <p>※ 방문 시 레뷰 체험단임을 밝히지 않으셔도 됩니다.</p>
                 <p>※ 체험기간 연장이 불가한 캠페인입니다.</p>
@@ -89,19 +90,21 @@ export default function AboutUs() {
             </div>
 
             {/* Section 3 */}
-            <div className="flex gap-20 flex-col md:flex-row items-center md:items-start text-center md:text-start mt-8">
+            <div className="flex flex-col lg:flex-row gap-4 items-center lg:items-start text-center lg:text-start mt-8">
               {/* Title */}
-              <div className="font-extrabold flex">강의 안내</div>
+              <div className="font-extrabold text-base w-full lg:w-[150px] flex-shrink-0">
+                강의 안내
+              </div>
               {/* Description */}
-              <div className="text-base w-[590px] font-pretendard px-[150px] md:px-[8px]">
-                <p className="flex items-center">
+              <div className="text-base font-pretendard lg:px-4">
+                <p className="flex items-center justify-center lg:justify-start">
                   <IoStarSharp />
                   신메뉴 소개
                 </p>
                 <p className="mt-4">
                   명륜진사갈비 신메뉴 &apos;후려페퍼스테이크&apos; 소개와 함께 나만의 플레이팅 방법을 소개해주세요
                 </p>
-                <p className="flex items-center mt-4">
+                <p className="flex items-center mt-4 justify-center lg:justify-start">
                   <IoStarSharp />
                   매장 소개와 함께 신메뉴 소개
                 </p>
@@ -118,11 +121,13 @@ export default function AboutUs() {
             </div>
 
             {/* Section 4 */}
-            <div className="flex gap-12 flex-col md:flex-row items-center md:items-start text-center md:text-start mt-8">
+            <div className="flex flex-col lg:flex-row gap-4 items-center lg:items-start text-center lg:text-start mt-8">
               {/* Title */}
-              <div className="font-extrabold flex text-base">추가 안내사항</div>
+              <div className="font-extrabold text-base w-full lg:w-[150px] flex-shrink-0">
+                추가 안내사항
+              </div>
               {/* Description */}
-              <div className="w-[590px] font-pretendard text-base px-[150px] md:px-[8px]">
+              <div className="text-base font-pretendard lg:px-4">
                 <p>- 초과비용 본인 부담 / 타쿠폰 중복적용 불가 / 테이크 아웃 불가</p>
                 <p>- 업체 측 요청에 따라 선정 인플루언서 수가 변경될 수 있습니다.</p>
                 <p>
@@ -138,92 +143,11 @@ export default function AboutUs() {
           </div>
 
           {/* Sidebar Section */}
-          <div className="md:w-[27%] w-[283px] h-[686px] border-[3px] rounded-xl border-black">
+          <div className=" w-[286px] h-[686px] border-[3px] rounded-xl border-black ">
             <About_farm />
           </div>
         </div>
       </div>
     </div>
   );
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from "react";
-// import { IoStarSharp } from "react-icons/io5";
-// import Header from '../Components/header';
-// import About_farm from '../Components/about_farm';
-// import { FaPlay } from "react-icons/fa6";
-// import Link from "next/link";
-
-// export default function AboutUs() {
-//   return (
-//     <div className="w-full h-auto">
-//       {/* Header Section */}
-//       <Header />
-
-//       {/* Body Section */}
-//       <div className="w-full h-auto flex justify-center mt-24 mb-48">
-//         {/* Main Content Container */}
-//         <div className="h-[500px] flex flex-col md:flex-row md:justify-between  items-center md:items-start w-full max-w-[1070px] bg-blue-100">
-          
-
-//           <div className="w-[750px] bg-red-100 h-[]">
-//             <div>title</div>
-//             <div>difjkfjdskjflkjfalkajflklkdsafjlkajfl</div>
-//           </div>
-//           <div className="w-[285px] bg-black">side bar</div>
-          
-         
-
-//             {/* Section 2 */}
-            
-
-//             {/* Section 3 */}
-           
-             
-
-//             {/* Section 4 */}
-           
-//           </div>
-
-//           {/* Sidebar Section */}
-//           {/* <div className="w-[285px] bg-black h-[686px] border-[3px] rounded-xl border-black">
-//             <About_farm />
-//           </div> */}
-//         </div>
-//       </div>
-    
-//   );
-// }
-
-  
-
-
-
-
-
+}

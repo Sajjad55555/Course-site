@@ -36,8 +36,8 @@ export default function HomeCards() {
     return (
         <>
             {cardDataArray.map((item ,index) => (
-                <div key={index} className="w-[230px] mt-4">
-                    <div className="w-[230px] h-[280px] border border-spacing-2 border-black rounded-lg overflow-hidden">
+                <div key={index} className="w-[256px] mt-4">
+                    <div className="w-[250px] h-[280px] border border-spacing-2 border-black rounded-lg overflow-hidden">
                         <Image
                             className="w-full h-full object-cover"
                             src={item.img}

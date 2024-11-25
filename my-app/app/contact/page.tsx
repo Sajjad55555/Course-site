@@ -1,7 +1,10 @@
 export default function ContactUs() {
     return (
       <>
-        <div className="px-4 md:px-[250px] py-[200px]">
+        <div className=" w-full h-auto flex justify-center">
+          <div className=" w-full max-w-[1050px] py-[200px] h-400px]">
+
+          
           {/* Title div */}
           <div className="text-[24px] md:text-[44px] font-bold text-center md:text-left">찾아오는 길</div>
           {/* Google Map div */}
@@ -27,6 +30,7 @@ export default function ContactUs() {
               첫 모임 8/14(수) 19:40
             </div>
           </div>
+        </div>
         </div>
       </>
     );

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { APP_LINKS2 } from "../utils/constant2"
+import { APP_LINKS } from "../utils/constant"
 import Link from "next/link"
 import { IoIosMenu } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
@@ -18,7 +18,7 @@ function Navbar3() {
         {/* link div */}
         
         <div className="flex flex-col md:flex-row gap-4 ">
-        {APP_LINKS2.map((link, index) => (
+        {APP_LINKS.map((link, index) => (
           <Link href={link.href} key={index}>
             <p className=" text-black hover:text-[#066AFF] text-[10px] font-semibold md:text-[15px]">{link.name}</p>
           </Link>

@@ -2,7 +2,7 @@ export default function ContactUs() {
     return (
       <>
         <div className=" w-full h-auto flex justify-center">
-          <div className=" w-full max-w-[1050px] py-[120px] h-400px]">
+          <div className=" w-full max-w-[1050px] py-[12w0px] h-400px]">
 
           
           {/* Title div */}

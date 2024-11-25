@@ -10,6 +10,7 @@ export default function HomeCards() {
             name: "Gimpo Marina Bay",
             date: "First meeting: Wednesday, August 14th, 7:40 PM",
         },
+        
         {
             img: "/images/home card images/card2.png",
             title: "Jung Seung-hwan - CEO of Egg Seoul",
@@ -26,6 +27,21 @@ export default function HomeCards() {
         },
         {
             img: "/images/home card images/card4.png",
+            title: "Jung Seung-hwan - CEO of Egg Seoul",
+            dic: "Conversation makes a witty person, writing makes an accurate person, and reading makes a complete person",
+            name: "Gimpo Marina Bay",
+            date: "First meeting: Wednesday, August 14th, 7:40 PM",
+        },
+        
+        {
+            img: "/images/home card images/card1.png",
+            title: "Jung Seung-hwan - CEO of Egg Seoul",
+            dic: "Conversation makes a witty person, writing makes an accurate person, and reading makes a complete person",
+            name: "Gimpo Marina Bay",
+            date: "First meeting: Wednesday, August 14th, 7:40 PM",
+        },
+        {
+            img: "/images/home card images/card3.png",
             title: "Jung Seung-hwan - CEO of Egg Seoul",
             dic: "Conversation makes a witty person, writing makes an accurate person, and reading makes a complete person",
             name: "Gimpo Marina Bay",

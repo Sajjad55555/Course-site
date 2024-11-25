@@ -2,13 +2,13 @@ export default function ContactUs() {
     return (
       <>
         <div className=" w-full h-auto flex justify-center">
-          <div className=" w-full max-w-[1050px] py-[200px] h-400px]">
+          <div className=" w-full max-w-[1050px] py-[120px] h-400px]">
 
           
           {/* Title div */}
           <div className="text-[24px] md:text-[44px] font-bold text-center md:text-left">찾아오는 길</div>
           {/* Google Map div */}
-          <div className="w-full h-[300px] md:h-[400px] border-[2px] border-black mt-4">
+          <div className="w-full h-[300px] md:h-[400px] border-[2px] border-black mt-16">
             <iframe
               className="w-full h-full"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345090415!2d-122.41941558468159!3d37.7749297797596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f197e203%3A0x18d8cbf77f02e0e9!2sSan%20Francisco!5e0!3m2!1sen!2sus!4v1638760195580!5m2!1sen!2sus"

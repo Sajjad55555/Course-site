@@ -29,30 +29,38 @@ export default function LandingClassCard() {
   };
 
   return (
-    <div className="w-full flex justify-center mt-8">
-      <div className="max-w-full w-[1050px] px-4">
-        {/* title div start */}
-        <div className="flex justify-between items-center">
-          <div className="text-2xl font-semibold">High-Density Class</div>
-          <div className="flex gap-2">
-            <FaCircleChevronLeft
-              className="text-[#A6A6A8] hover:text-[#FF6016] cursor-pointer"
-              onClick={handleScrollLeft}
-            />
-            <FaCircleChevronRight
-              className="text-[#A6A6A8] hover:text-[#FF6016] cursor-pointer"
-              onClick={handleScrollRight}
-            />
+    <>
+      <div className="w-full flex flex-wrap justify-center mt-8">
+        <div className="max-w-full w-[1050px] px-4 ">
+          {/* title div start */}
+          <div className="flex justify-between flex-wrap">
+            <div className="text-2xl font-semibold">High-Density Class.</div>
+            <div className="flex gap-2">
+              <div>
+                <FaCircleChevronLeft
+                  className="text-[#A6A6A8] hover:text-[#FF6016] cursor-pointer"
+                  onClick={handleScrollLeft}
+                />
+              </div>
+              <div>
+                <FaCircleChevronRight
+                  className="text-[#A6A6A8] hover:text-[#FF6016] cursor-pointer"
+                  onClick={handleScrollRight}
+                />
+              </div>
+            </div>
+          </div>
+          {/* card div start */}
+          <div
+            ref={cardContainerRef}
+            className="flex gap-4 overflow-x-hidden mt-4"
+          >
+            <HomeCards />
           </div>
         </div>
-        {/* card div start */}
-        <div
-          ref={cardContainerRef}
-          className="flex gap-4 overflow-x-auto mt-4 pb-2"
-        >
-          <HomeCards />
-        </div>
       </div>
-    </div>
+    </>
   );
 }
+
+// Removed CSS related to scrollbar hiding as it's no longer needed.

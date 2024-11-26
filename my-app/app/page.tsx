@@ -20,10 +20,7 @@ export default function Home() {
   <Landing_class_card/>
 </div>
 {/* card div end*/}
-{/* footer section */}
-<div className="mt-16">
-  
-</div>
+
 
     </div>
   );
